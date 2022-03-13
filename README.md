@@ -24,3 +24,5 @@ Here are the steps if you want to run it inside a docker container:
 
 7- The docker has been made in a windows environment, which usually uses CRLF instead of LF, this might cause some problems while running
 the docker container, if that was the case with you, make sure to go to your IDE, and change the break line to LF
+8- We uploaded all the udpipe models in the udpipe folder, but we're not sure they were properly uploaded in git, if you encouter some problems
+with udpipe, make sure to download the models yourself from their website, we're using UDPIPE 1
